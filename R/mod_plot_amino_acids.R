@@ -11,7 +11,14 @@ mod_plot_amino_acids_ui <- function(id){
   ns <- NS(id)
   tagList(
     sidebarLayout(
-        sidebarPanel("peptide_sequence"),
+        sidebarPanel(
+          textAreaInput(
+            inputId = ns("peptide"),
+            label = "Peptide sequence",
+            width = 300,
+            height = 100,
+            placeholder = "Insert peptide sequence"
+        )),
         mainPanel("plot")))
 }
 
