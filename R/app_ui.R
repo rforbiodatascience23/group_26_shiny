@@ -12,7 +12,7 @@ app_ui <- function(request) {
     fluidPage(
       h1("CDVisual"),
       tabsetPanel(
-        tabPanel(title = "panel1",
+        tabPanel(title = "DNA sequence simulator",
                  "module1"),
         tabPanel(title = "panel2",
                  "module2")
