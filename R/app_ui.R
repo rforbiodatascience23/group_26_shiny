@@ -12,9 +12,9 @@ app_ui <- function(request) {
     fluidPage(
       h1("CDVisual"),
       tabsetPanel(
-        tabPanel(title = "DNA sequence simulator",
-                 "module1"),
-        tabPanel(title = "Plot amino acids1",
+        tabPanel(title = "DNA sequence simulator2",
+                 "module"),
+        tabPanel(title = "Plot amino acids2",
                  mod_plot_amino_acids_ui("plot_amino_acids_1")
                  )
       )
