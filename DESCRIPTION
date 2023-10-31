@@ -1,13 +1,9 @@
 Package: CDVisual
-Title: An Amazing Shiny App
+Title: Visualisation of the Central Dogma
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R: person('Emilie', 'Munk', email = 's203549@dtu.dk', role = c('cre', 'aut'))
+Description: PKG_DESC.
+License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.4.1),
