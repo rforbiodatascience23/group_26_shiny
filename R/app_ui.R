@@ -14,8 +14,9 @@ app_ui <- function(request) {
       tabsetPanel(
         tabPanel(title = "DNA sequence simulator",
                  "module1"),
-        tabPanel(title = "panel2",
-                 "module2")
+        tabPanel(title = "Plot amino acids1",
+                 mod_plot_amino_acids_ui("plot_amino_acids_1")
+                 )
       )
     )
   )

@@ -6,4 +6,6 @@
 #' @noRd
 app_server <- function(input, output, session) {
   # Your application server logic
+  mod_plot_amino_acids_server("plot_amino_acids_1")
+
 }
