@@ -10,17 +10,9 @@
 mod_plot_amino_acids_ui <- function(id){
   ns <- NS(id)
   tagList(
-
     sidebarLayout(
-      sidebarPanel(
-        "peptide_sequence"
-      ),
-      mainPanel(
-        "plot"
-      )
-    )
-
-  )
+        sidebarPanel("peptide_sequence"),
+        mainPanel("plot")))
 }
 
 #' plot_amino_acids Server Functions
