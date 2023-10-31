@@ -19,7 +19,9 @@ mod_plot_amino_acids_ui <- function(id){
             height = 100,
             placeholder = "Insert peptide sequence"
         )),
-        mainPanel("plot")))
+        mainPanel(plotOutput(
+          outputId = ns("abundance")
+        ))))
 }
 
 #' plot_amino_acids Server Functions
