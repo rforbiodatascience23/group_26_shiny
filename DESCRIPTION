@@ -1,7 +1,28 @@
 Package: CDVisual
 Title: Visualisation of the Central Dogma
 Version: 0.0.0.9000
-Authors@R: person('Emilie', 'Munk', email = 's203549@dtu.dk', role = c('cre', 'aut'))
+Authors@R:
+  c(person(given = "Emilie",
+           family = "Munk",
+           role = c("aut", "cre"),
+           email = "s203549@dtu.dk"), 
+    person(given = "Júdith",
+           family = "Tierno",
+           role = "aut",
+           email = "s222869@dtu.dk"), 
+    person(given = "Sahand",
+           family = "Yazdany",
+           role = "aut",
+           email = "s203538@dtu.dk"), 
+    person(given = "Josefine",
+           family = "Løken",
+           role = "aut",
+           email = "jgloken@hotmail.com"), 
+    person(given = "Felix",
+           family = "Freiesleben",
+           role = "aut",
+           email = "s203521@dtu.dk")
+           )
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
