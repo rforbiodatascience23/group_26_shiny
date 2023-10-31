@@ -32,6 +32,16 @@ mod_plot_amino_acids_server <- function(id){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
 
+    output$abundance <- renderPlot({
+      if(input$peptide == ""){
+        NULL
+      } else{
+        input$peptide |>
+          AnalysisCD::plot_codons() +
+          ggplot2::theme(legend.position = "none")
+      }
+    })
+
   })
 }
 
