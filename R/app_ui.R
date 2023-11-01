@@ -12,8 +12,8 @@ app_ui <- function(request) {
     fluidPage(
       h1("CDVisual"),
       tabsetPanel(
-        tabPanel(title = "DNA sequence simulator2",
-                 "module"),
+        tabPanel(title = "DNA sequence simulator",
+                 mod_dna_to_peptide_ui("dna_to_peptide_1")),
         tabPanel(title = "Plot amino acids",
                  mod_plot_amino_acids_ui("plot_amino_acids_1")
                  )
