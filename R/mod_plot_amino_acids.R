@@ -2,11 +2,14 @@
 #'
 #' @description A shiny Module.
 #'
+#'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd
 #'
 #' @importFrom shiny NS tagList
+#' @importFrom ggplot2 theme
+#' @import AnalysisCD
 mod_plot_amino_acids_ui <- function(id){
   ns <- NS(id)
   tagList(

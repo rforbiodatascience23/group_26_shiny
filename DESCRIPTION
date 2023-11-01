@@ -1,34 +1,20 @@
 Package: CDVisual
 Title: Visualisation of the Central Dogma
 Version: 0.0.0.9000
-Authors@R:
-  c(person(given = "Emilie",
-           family = "Munk",
-           role = c("aut", "cre"),
-           email = "s203549@dtu.dk"), 
-    person(given = "Júdith",
-           family = "Tierno",
-           role = "aut",
-           email = "s222869@dtu.dk"), 
-    person(given = "Sahand",
-           family = "Yazdany",
-           role = "aut",
-           email = "s203538@dtu.dk"), 
-    person(given = "Josefine",
-           family = "Løken",
-           role = "aut",
-           email = "jgloken@hotmail.com"), 
-    person(given = "Felix",
-           family = "Freiesleben",
-           role = "aut",
-           email = "s203521@dtu.dk")
-           )
+Authors@R: c(
+    person("Emilie", "Munk", , "s203549@dtu.dk", role = c("aut", "cre")),
+    person("Júdith", "Tierno", , "s222869@dtu.dk", role = "aut"),
+    person("Sahand", "Yazdany", , "s203538@dtu.dk", role = "aut"),
+    person("Josefine", "Løken", , "jgloken@hotmail.com", role = "aut"),
+    person("Felix", "Freiesleben", , "s203521@dtu.dk", role = "aut")
+  )
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
+    AnalysisCD,
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.4.1),
-    pkgload,
     shiny (>= 1.7.5)
 Encoding: UTF-8
 LazyData: true
