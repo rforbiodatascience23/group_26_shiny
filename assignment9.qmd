@@ -15,3 +15,7 @@ However, we found that Golem significantly eased our app development process. It
 We believe that ensuring reproducibility is crucial for Shiny apps. Changes in databases or app functionality can create reproducibility challenges. To address this, we suggest implementing a versioning system to track database changes, allowing for easy recovery of previous states. We also believe that when updating the app, comprehensive testing with different data versions ensures that it performs well.
 
 We think that Shiny apps are versatile, but they do have limitations. Handling large datasets can lead to performance issues and slower loading times, affecting the user experience. Establishing a balance between app complexity and user-friendliness is another challenge, as too complex apps may overwhelm some users.
+
+Here is a link to our shiny app:
+https://teaching.healthtech.dtu.dk/shiny/s203549/CDVisual/
+
