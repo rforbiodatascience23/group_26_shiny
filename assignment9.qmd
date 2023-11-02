@@ -1,0 +1,17 @@
+---
+title: "Lab 6 Assignment: Group 26"
+format: 
+  html:
+    embed-resources: true
+editor: visual
+---
+
+# Dicussion
+
+Creating our Shiny app came with some challenges. One major was managing teamwork during development. Trying to work on the app simultaneously with multiple team members caused issues with coordination. To address this, we had to take turns, although this wasn't the most efficient solution. Another challenge we faced was slow updates, which made it difficult to distinguish between code errors and system-related delays.
+
+However, we found that Golem significantly eased our app development process. It offered a structured basis that made creating the app more straightforward. Once we got the hang of Golem, it became a valuable help for structuring and maintaining our application.
+
+We believe that ensuring reproducibility is crucial for Shiny apps. Changes in databases or app functionality can create reproducibility challenges. To address this, we suggest implementing a versioning system to track database changes, allowing for easy recovery of previous states. We also believe that when updating the app, comprehensive testing with different data versions ensures that it performs well.
+
+We think that Shiny apps are versatile, but they do have limitations. Handling large datasets can lead to performance issues and slower loading times, affecting the user experience. Establishing a balance between app complexity and user-friendliness is another challenge, as too complex apps may overwhelm some users.
